@@ -21,6 +21,7 @@
  // Initialize an array called students. 
  // Define for loop to run count times starting at 1
  // Push each student name into the array via user input ("student 1:")
+ // End the loop
  // Return the students array
 
 /* Function randStudent(students)
