@@ -10,15 +10,13 @@
  */
 function main(){
    let operation = prompt("+, -, *, or /")
- // Ask the user what operation they want (+, -, *, /)
    let a = parseInt(prompt("What is number a?"));
    let b = parseInt(prompt("What is number b?"));
    let result;
- // Based on the operation, send the numbers to the right function as arguments
    if (operation == "+"){
       result = add(a,b);
    } else if (operation == "-"){
-      result = subtract(a,b);
+      
    } else if (operation == "*"){
       result = multiply(a,b);
    } else {
@@ -33,22 +31,29 @@ function main(){
  * @return: a + b
  */
 function add(a,b){
-   
+   return a + b;
 }
 /* FUNCTION subtract(a,b)
  * define a function called subtract with two number parameters a and b
  * @param: a, b (integers)
  * @return: a - b
  */
-
+function subtract(a,b){
+   return a - b;
+}
 /* FUNCTION multiply(a,b)
  * define a function called multiply with two number parameters a and b
  * @param: a, b (integers)
  * @return: a * b (* means multiply)
  */
-
+function multiply(a,b){
+   return a * b;
+}
 /* FUNCTION divide(a,b)
  * define a function called divide with two number parameters a and b
  * @param: a, b (integers)
  * @return: a / b (/ means divided by)
  */
+function divide(a,b){
+   return a / b;
+}
